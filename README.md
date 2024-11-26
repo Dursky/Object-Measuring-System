@@ -12,8 +12,8 @@ A computer vision system for measuring object dimensions using a reference card.
 ## Installation
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
+python3 -m venv venv
+source ./venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
