@@ -1,0 +1,34 @@
+2024-11-26 15:40:36,100 - __main__ - INFO - Loading image from data/examples/paper.jpeg
+2024-11-26 15:40:36,147 - __main__ - INFO - Detecting reference object
+2024-11-26 15:40:36,236 - detector.reference_detector - DEBUG - Found 5582 contours in image
+2024-11-26 15:40:36,240 - detector.reference_detector - INFO - Reference object detected
+2024-11-26 15:40:36,243 - __main__ - INFO - Detecting measurement objects
+2024-11-26 15:40:36,296 - detector.object_detector - INFO - Detected 3547 measurable objects
+2024-11-26 15:40:36,298 - __main__ - INFO - Calculating object dimensions
+2024-11-26 15:40:36,299 - measurement.size_calculator - INFO - Scale: 0.0663 cm/pixel
+2024-11-26 15:40:36,312 - measurement.size_calculator - INFO - Calculated dimensions for 236 objects
+2024-11-26 15:40:36,312 - __main__ - INFO - Generating visualization
+2024-11-26 15:43:33,504 - __main__ - INFO - Loading image from data/examples/paper.jpeg
+2024-11-26 15:43:33,536 - __main__ - INFO - Detecting reference object
+2024-11-26 15:43:33,583 - detector.reference_detector - DEBUG - Found 5582 contours in image
+2024-11-26 15:43:33,584 - detector.reference_detector - INFO - Reference object detected
+2024-11-26 15:43:33,586 - __main__ - INFO - Detecting measurement objects
+2024-11-26 15:43:33,620 - detector.object_detector - INFO - Detected 3547 measurable objects
+2024-11-26 15:43:33,621 - __main__ - INFO - Calculating object dimensions
+2024-11-26 15:43:33,621 - measurement.size_calculator - INFO - Scale: 0.0736 cm/pixel
+2024-11-26 15:43:33,635 - measurement.size_calculator - INFO - Calculated dimensions for 298 objects
+2024-11-26 15:43:33,635 - __main__ - INFO - Generating visualization
+2024-11-26 15:43:33,647 - utils.visualization - INFO - Visualization generated
+2024-11-26 15:43:33,673 - __main__ - INFO - Results saved to data/output/result.jpg
+2024-11-26 15:44:01,590 - __main__ - INFO - Loading image from data/examples/scene_1.jpeg
+2024-11-26 15:44:01,652 - __main__ - INFO - Detecting reference object
+2024-11-26 15:44:01,695 - detector.reference_detector - DEBUG - Found 6099 contours in image
+2024-11-26 15:44:01,696 - detector.reference_detector - INFO - Reference object detected
+2024-11-26 15:44:01,698 - __main__ - INFO - Detecting measurement objects
+2024-11-26 15:44:01,718 - detector.object_detector - INFO - Detected 1480 measurable objects
+2024-11-26 15:44:01,719 - __main__ - INFO - Calculating object dimensions
+2024-11-26 15:44:01,719 - measurement.size_calculator - INFO - Scale: 0.1031 cm/pixel
+2024-11-26 15:44:01,726 - measurement.size_calculator - INFO - Calculated dimensions for 346 objects
+2024-11-26 15:44:01,726 - __main__ - INFO - Generating visualization
+2024-11-26 15:44:01,741 - utils.visualization - INFO - Visualization generated
+2024-11-26 15:44:01,776 - __main__ - INFO - Results saved to data/output/result.jpg

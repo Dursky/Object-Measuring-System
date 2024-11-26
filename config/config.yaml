@@ -1,0 +1,56 @@
+# Default configuration file for Object Measurement System
+
+# config/config.yaml
+reference:
+  size: 10 # Default reference card size in cm
+  min_area: 1000
+  max_area: 100000
+  edge_detection:
+    low_threshold: 50
+    high_threshold: 150
+  contour_approximation:
+    epsilon_factor: 0.02
+
+detection:
+  confidence_threshold: 0.7
+  edge_detection:
+    low_threshold: 50
+    high_threshold: 150
+  contour_approximation:
+    epsilon_factor: 0.02
+  min_object_size: 20
+  max_objects: 50
+
+measurement:
+  min_object_size: 1
+  max_object_size: 100
+  precision: 2
+  calibration:
+    use_calibration: false
+    chessboard_size: [9, 6]
+    square_size: 2.5
+
+visualization:
+  colors:
+    reference: [0, 255, 0] # Green for reference card (BGR format)
+    object: [0, 0, 255] # Red for measured objects
+    text: [255, 255, 255] # White for text
+  text:
+    font_scale: 0.8
+    thickness: 2
+    color: [255, 255, 255] # Dodana brakująca konfiguracja koloru tekstu
+    font: "FONT_HERSHEY_SIMPLEX"
+  line:
+    thickness: 2
+    type: "LINE_AA"
+
+logging:
+  level: INFO
+  file: "logs/object_measurement.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+output:
+  save_debug_images: true
+  save_measurements: true
+  output_directory: "data/output"
+  debug_directory: "data/debug"

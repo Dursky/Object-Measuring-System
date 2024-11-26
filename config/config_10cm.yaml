@@ -1,0 +1,32 @@
+# Standard configuration for 10x10cm reference card
+reference:
+  size: 10 # Reference card size in cm
+  min_area: 1000
+  max_area: 100000
+  edge_detection:
+    low_threshold: 50
+    high_threshold: 150
+  contour_approximation:
+    epsilon_factor: 0.02
+
+detection:
+  confidence_threshold: 0.7
+  edge_detection:
+    low_threshold: 50
+    high_threshold: 150
+  min_object_size: 20
+  max_objects: 50
+
+measurement:
+  min_object_size: 1
+  max_object_size: 100
+  precision: 2
+
+visualization:
+  colors:
+    reference: [0, 255, 0]
+    object: [0, 0, 255]
+    text: [255, 255, 255]
+  text:
+    font_scale: 0.8
+    thickness: 2

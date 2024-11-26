@@ -1,0 +1,32 @@
+# Configuration for 5x5cm reference card (small objects)
+reference:
+  size: 5 # Reference card size in cm
+  min_area: 500 # Smaller area for smaller card
+  max_area: 50000
+  edge_detection:
+    low_threshold: 40 # More sensitive edge detection
+    high_threshold: 120
+  contour_approximation:
+    epsilon_factor: 0.015 # More precise contour detection
+
+detection:
+  confidence_threshold: 0.65
+  edge_detection:
+    low_threshold: 40
+    high_threshold: 120
+  min_object_size: 10 # Smaller minimum object size
+  max_objects: 50
+
+measurement:
+  min_object_size: 0.5 # Smaller minimum measurement
+  max_object_size: 50
+  precision: 2
+
+visualization:
+  colors:
+    reference: [0, 255, 0]
+    object: [0, 0, 255]
+    text: [255, 255, 255]
+  text:
+    font_scale: 0.6 # Smaller text for smaller measurements
+    thickness: 1
